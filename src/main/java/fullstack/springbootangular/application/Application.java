@@ -23,11 +23,17 @@ public class Application {
     @Bean
     CommandLineRunner init(UserRepository userRepository, GroupRepository groupRepository) {
         return args -> {
-            Stream.of("John", "Julie", "Jennifer", "Helen", "Rachel", "Faisal", "Samad").forEach(name -> {
+            Stream.of("John", "Julie", "Jennifer", "Helen", "samad", "Faisal", "Samad").forEach(name -> {
                 User user = new User();
                 user.setFirstName(name);
-                user.setLastName(name);
+                user.setLastName("Samad");
+                user.setAboutMe("I am Awesome!");
                 user.setAdmin(true);
+                user.setEmail("faisal@samad.com");
+                user.setCompletedModules("All");
+                user.setGroupName("Chekov");
+                user.setPhoneNumber("1234567890");
+                user.setPicLocation("");
                 userRepository.save(user);
             });
             List<User> findAll = (List<User>) userRepository.findAll();

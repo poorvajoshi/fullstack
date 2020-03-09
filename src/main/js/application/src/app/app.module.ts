@@ -8,18 +8,16 @@ import { UserService } from './service/user.service';
 import { GroupService } from './service/group.service';
 import { DashboardComponent }   from './dashboard/dashboard.component';
 import { GroupComponent }   from './group/group.component';
-import { AdminComponent }   from './admin/admin.component';
-import { CustomDirective }          from './admin/custom.directive';
-import { UserComponent }    from './admin/user.component';
+import { ParentComponent }   from './parent/parent.component';
+import { FaisalComponent }    from './admin/faisal/faisal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FaisalComponent,
     DashboardComponent,
     GroupComponent,
-    AdminComponent,
-    UserComponent,
-    CustomDirective
+    ParentComponent
   ],
   imports: [
     BrowserModule,
