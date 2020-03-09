@@ -29,9 +29,7 @@ public class User {
     private String email;
     private String phoneNumber;
     private String aboutMe;
-    private boolean admin;
     private String groupName;
-    private String completedModules;
-    private String picLocation;
+    private Long mentorId;
 
 }

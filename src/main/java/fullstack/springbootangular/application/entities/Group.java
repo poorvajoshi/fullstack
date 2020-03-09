@@ -33,8 +33,8 @@ public class Group {
     @GeneratedValue(generator = "group_generator", strategy = GenerationType.AUTO)
     private long id;
     private String groupname;
-    private String mentor;
-    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
+    private Long mentorId;
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "mentorId", cascade = CascadeType.MERGE)
     private List<User> users;
 
     public void addUser(User user) {

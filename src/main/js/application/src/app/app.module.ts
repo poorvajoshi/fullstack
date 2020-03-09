@@ -10,6 +10,7 @@ import { DashboardComponent }   from './dashboard/dashboard.component';
 import { GroupComponent }   from './group/group.component';
 import { ParentComponent }   from './parent/parent.component';
 import { FaisalComponent }    from './admin/faisal/faisal.component';
+import { TorbenComponent }    from './admin/torben/torben.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FaisalComponent }    from './admin/faisal/faisal.component';
     FaisalComponent,
     DashboardComponent,
     GroupComponent,
-    ParentComponent
+    ParentComponent,
+    TorbenComponent
   ],
   imports: [
     BrowserModule,
