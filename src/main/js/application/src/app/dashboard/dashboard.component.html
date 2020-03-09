@@ -1,0 +1,9 @@
+<h3>Learning Groups</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let group of groups" class="col-2-4"
+      routerLink="{{group.id}}">
+    <div class="module group">
+      <h4>{{group.groupname}}</h4>
+    </div>
+  </a>
+</div>
