@@ -24,7 +24,7 @@ export class GroupComponent implements OnInit {
 
   getGroup(): void {
     const id = +this.route.snapshot.paramMap.get('id');
-    let fal = this.groupService.getGroup(id)
+    this.groupService.getGroup(id)
       .subscribe(grp => this.users = grp.users);
   }
 }

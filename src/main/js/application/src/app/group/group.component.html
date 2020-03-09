@@ -1,8 +1,10 @@
+<div align="center" >
 <h2>Students</h2>
 <ul class="students">
-  <li *ngFor="let user of users">
+  <li *ngFor="let user of users; let i = index" [attr.data-index]="i">
     <a [routerLink]="['/user', user.id]">
-      <span class="badge">{{ user.id }}</span>{{ user.firstName }} {{ user.lastName }}
+      <span class="badge">{{ i + 1 }}</span>{{ user.firstName }} {{ user.lastName }}
     </a>
   </li>
 </ul>
+</div>
