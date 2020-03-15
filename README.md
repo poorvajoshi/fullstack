@@ -21,6 +21,6 @@ Never write another getter or equals method again, with one annotation your clas
 
 2. `Double-click lombok.jar`. This starts the eclipse installer which will find eclipse and offers to install lombok into your eclipse installations. The same tool can also uninstall lombok.
 
-# Running, building and packaging.)
-The Application is based from tutorials on [baeldung](https://www.baeldung.com/spring-boot-angular-web) and [Angular](https://stackblitz.com/angular/egmelpdxren?file=src%2Fapp%2Fhero.service.ts) 
+# Running, building and packaging.
+The Application is based on tutorials from [baeldung](https://www.baeldung.com/spring-boot-angular-web) and [Angular](https://stackblitz.com/angular/egmelpdxren?file=src%2Fapp%2Fhero.service.ts) 
 
