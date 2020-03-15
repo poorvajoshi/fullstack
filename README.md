@@ -1,22 +1,26 @@
-#Accenture FullStack University Training App
-#Description
+## Accenture FullStack University Training App
+# Description
 Training App, developed for the purpose of the providing hands=on expeience to students.
 
-#Configure your IDE
-Enable Java 13 Features for Eclispe IDE
-Eclipse 2019-09 is required for Java 13 Support. Download Eclipse IDE for Enterprise Java Developers
+## Configure your IDE
 
-Open Help -> Eclipse Marketplace ...
+### Enable Java 13 Features for Eclispe IDE
+1. Eclipse 2019-09 is required for Java 13 Support. [Download Eclipse IDE for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/)
 
-Search for "Java 13 support for Eclipse 2019-09" and install the extension.
+2. Open Help -> Eclipse Marketplace ...
 
-Follow the desciption to enable the Java 13 preview features Enable Java 13 JRE Support
+3. Search for "Java 13 support for Eclipse 2019-09" and install the extension.
 
-#Enable Lombok
-Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java. Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
+4. Follow the desciption to enable the Java 13 preview features [Enable Java 13 JRE Support](https://wiki.eclipse.org/Java13/Examples)
 
-Download the lombok.jar from this , or from your maven repository; it's the same jar.
+### Enable Lombok
+Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
+Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
 
-Double-click lombok.jar. This starts the eclipse installer which will find eclipse and offers to install lombok into your eclipse installations. The same tool can also uninstall lombok.
+1. [Download](https://projectlombok.org/download) the `lombok.jar` from this , or from your maven repository; it's the same jar.
 
-#Running, building and packaging.
+2. `Double-click lombok.jar`. This starts the eclipse installer which will find eclipse and offers to install lombok into your eclipse installations. The same tool can also uninstall lombok.
+
+# Running, building and packaging.)
+The Application is based from tutorials on [baeldung](https://www.baeldung.com/spring-boot-angular-web) and [Angular](https://stackblitz.com/angular/egmelpdxren?file=src%2Fapp%2Fhero.service.ts) 
+
