@@ -26,7 +26,10 @@
     "rxjs-compat": "^6.5.4",
     "tslib": "^1.10.0",
     "typescript": "3.7.5",
-    "zone.js": "^0.10.2"
+    "zone.js": "^0.10.2",
+    "minimist": "^1.2.2",
+    "clean-css": "^4.1.11",
+    "cli": "^1.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.5",
@@ -42,6 +45,9 @@
     "codelyzer": "^5.1.2",
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
-    "typescript": "3.7.5"
+    "typescript": "3.7.5",
+    "minimist": "^1.2.2",
+    "clean-css": "^4.1.11",
+    "cli": "^1.0.0"
   }
 }
