@@ -6,14 +6,7 @@ The Application is based on tutorials from [baeldung](https://www.baeldung.com/s
 
 ## Configure your IDE
 
-### Enable Java 13 Features for Eclispe IDE
-1. Eclipse 2019-09 is required for Java 13 Support. [Download Eclipse IDE for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/)
-
-2. Open Help -> Eclipse Marketplace ...
-
-3. Search for "Java 13 support for Eclipse 2019-09" and install the extension.
-
-4. Follow the desciption to enable the Java 13 preview features [Enable Java 13 JRE Support](https://wiki.eclipse.org/Java13/Examples)
+1. Download Eclipse IDE
 
 ### Enable Lombok
 Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
@@ -22,6 +15,8 @@ Never write another getter or equals method again, with one annotation your clas
 1. [Download](https://projectlombok.org/download) the `lombok.jar` from this , or from your maven repository; it's the same jar.
 
 2. `Double-click lombok.jar`. This starts the eclipse installer which will find eclipse and offers to install lombok into your eclipse installations. The same tool can also uninstall lombok.
+
+3. For other IDE's (https://projectlombok.org/setup/overview)
 
 # Running, building and packaging.
 
